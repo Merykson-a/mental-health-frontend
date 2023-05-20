@@ -1,5 +1,9 @@
 ### :pill: Mental Health
 
+```
+A portal/landing page with basic information about mental health.
+```
+
 ## :hammer_and_wrench: Language/tools
 
 -   HTML5 / CSS3
