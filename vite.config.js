@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
+import { resolve } from "path";
 import vue from "@vitejs/plugin-vue";
 
-// https://vitejs.dev/config/
 export default defineConfig({
     base: "/mental-health-frontend/",
     build: {
@@ -11,4 +11,9 @@ export default defineConfig({
         emptyOutDir: true,
     },
     plugins: [vue()],
+    resolve: {
+        alias: {
+            "@/": resolve(__dirname, "src") + "/",
+        },
+    },
 });
