@@ -17,7 +17,7 @@
                 <h1 class="title mt-3" style="">
                     Mentalidade saudável, vida plena:
                 </h1>
-                <p class="sub-title mt-7 mb-4">E sua mente, vai bem?</p>
+                <p class="sub-title mt-7 mb-4">Então, como vai sua vida?</p>
             </div>
         </div>
     </header>
