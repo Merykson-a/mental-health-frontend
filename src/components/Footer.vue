@@ -1,6 +1,6 @@
 <template>
-    <footer class="bg-bookmark-dark py-8">
-        <div class="container flex flex-col md:flex-row items-center">
+    <footer class="bg-bookmark-dark px-20">
+        <div class="flex flex-col md:flex-row items-center">
             <div
                 class="flex flex-1 flex-wrap items-center justidy-center md:justify-start gap-12 text-white"
             >
