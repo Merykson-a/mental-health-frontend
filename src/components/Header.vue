@@ -1,22 +1,22 @@
 <template>
     <header>
         <div class="flex justify-center items-center py-5">
-            <img src="@/assets/mental-health-icon.png" width="25px" />
-            <div
-                class="text-white ml-2"
-                style="font-family: Oleo Script; font-size: 20px"
-            >
-                Saúde mental
-            </div>
+            <img
+                src="@/assets/images/header/mental-health-icon.png"
+                width="25px"
+            />
+
+            <div class="content-title ml-2">Saúde mental</div>
         </div>
 
         <div class="header-container flex flex-col sm:flex-row items-center">
-            <img class="brain-img" src="@/assets/brain.png" />
+            <img class="brain-img" src="@/assets/images/header/brain.png" />
 
             <div class="speech-bubble text-white my-14 text-center">
                 <h1 class="title mt-3" style="">
                     Mentalidade saudável, vida plena:
                 </h1>
+
                 <p class="sub-title mt-7 mb-4">Então, como vai sua vida?</p>
             </div>
         </div>
@@ -24,6 +24,12 @@
 </template>
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Oleo+Script&display=swap");
+
+.content-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Oleo Script;
+}
 
 .header-container {
     margin: 0px 50px 0px 50px;
