@@ -13,7 +13,7 @@ import Concept from "./components/Concept.vue";
 <style lang="scss">
 html,
 body {
-    background-color: #02080c;
+    background-color: #fff7c4;
 }
 
 ::-webkit-scrollbar {

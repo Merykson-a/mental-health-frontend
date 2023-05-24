@@ -9,6 +9,7 @@
             <div class="flex gap-10 mt-12 md:mt-0">
                 <li class="list-none">
                     <a
+                        style="color: #3d5c75"
                         class="text-white text-2xl fab fa-instagram"
                         target="_blank"
                         href="https://www.instagram.com/merykson_acacio/"

@@ -12,19 +12,19 @@
 .gradiente {
     width: 100%;
     height: 30px;
-    background-image: linear-gradient(to bottom, #02080c, #fce4ec);
+    background-image: linear-gradient(to bottom, #fff7c4, #e6f1f6);
 }
 
 .gradiente2 {
     width: 100%;
     height: 30px;
-    background-image: linear-gradient(to bottom, #fce4ec, #02080c);
+    background-image: linear-gradient(to bottom, #e6f1f6, #fff7c4);
 }
 
 .introduction-container {
     position: relative;
     height: 200px;
-    background-color: #fce4ec;
+    background-color: #e6f1f6;
     overflow: hidden;
 }
 </style>
