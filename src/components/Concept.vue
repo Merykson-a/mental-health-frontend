@@ -4,10 +4,10 @@
     <section
         class="concept-container grid md:grid-cols-2 grid-cols-1 items-center gap-14"
     >
-        <div class="concept-content p-10">
-            <div class="title">
+        <div class="concept-content p-7">
+            <div class="title pb-3">
                 Afinal, o que é
-                <b style="color: #f8ae0e">saúde mental?</b>
+                <b style="color: #ffb30e">saúde mental?</b>
             </div>
 
             <div class="text pt-7">
@@ -18,15 +18,13 @@
             </div>
 
             <div class="text pt-7 md:flex-none md:flex gap-14 items-center">
-                <div>
-                    Assim como uma floresta pode enfrentar tempestades e
-                    desequilíbrios, nossa saúde mental também pode ser afetada
-                    por diversos fatores, como estresse, traumas, problemas de
-                    relacionamento ou desequilíbrios químicos. É importante
-                    buscar apoio e cuidar dela para que floresça. A saúde mental
-                    nos permite lidar com o estresse, enfrentar desafios e
-                    desfrutar de uma vida plena.
-                </div>
+                Assim como uma floresta pode enfrentar tempestades e
+                desequilíbrios, nossa saúde mental também pode ser afetada por
+                diversos fatores, como estresse, traumas, problemas de
+                relacionamento ou desequilíbrios químicos. É importante buscar
+                apoio e cuidar dela para que floresça. A saúde mental nos
+                permite lidar com o estresse, enfrentar desafios e desfrutar de
+                uma vida plena.
 
                 <img
                     class="happy-forest-img"
@@ -74,7 +72,9 @@
         .text {
             font-size: 24px;
             text-indent: 2em;
+            hyphens: auto;
             text-align: justify;
+            text-justify: newspaper;
         }
     }
 }
