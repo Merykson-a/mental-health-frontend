@@ -9,21 +9,62 @@
             <div class="content-title ml-2">Saúde mental</div>
         </div>
 
-        <div class="header-container flex flex-col sm:flex-row items-center">
+        <div class="header-container flex flex-col md:flex-row items-center">
             <img class="brain-img" src="@/assets/images/header/brain.png" />
 
-            <div class="speech-bubble text-white my-14 text-center">
-                <h1 class="title mt-3" style="">
-                    Mentalidade saudável, vida plena:
-                </h1>
+            <div class="cloud text-center py-7">
+                <div class="cloud-circle" />
+                <div class="cloud-circle" />
+                <div class="cloud-circle" />
 
-                <p class="sub-title mt-7 mb-4">Então, como vai sua vida?</p>
+                <div class="content">
+                    <h1 class="title mt-3">
+                        Mentalidade saudável, vida plena:
+                    </h1>
+
+                    <p class="sub-title mt-7 mb-4">Então, como vai sua vida?</p>
+                </div>
             </div>
         </div>
     </header>
 </template>
+<script></script>
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Oleo+Script&display=swap");
+
+.cloud {
+    position: relative;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 30vh;
+
+    .cloud-circle {
+        position: absolute;
+        background-color: #f5f5f5;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+
+        &:nth-child(1) {
+            top: 0px;
+            left: -30px;
+        }
+
+        &:nth-child(2) {
+            width: 25px;
+            height: 25px;
+            top: -30px;
+            left: -60px;
+        }
+
+        &:nth-child(3) {
+            width: 20px;
+            height: 20px;
+            top: -40px;
+            left: -100px;
+        }
+    }
+}
 
 .content-title {
     color: #ffffff;
@@ -32,9 +73,9 @@
 }
 
 .header-container {
-    margin: 0px 50px 0px 50px;
+    padding: 80px 50px 80px 50px;
     align-items: center;
-    height: calc(100vh - 200px);
+    // height: calc(100vh - 150px);
 
     .brain-img {
         width: 80vh;
@@ -53,36 +94,27 @@
         font-weight: bold;
         color: #ff6600;
     }
+}
 
-    .speech-bubble {
-        width: 100%;
-        border-radius: 50px;
-        min-height: 150px;
-        height: auto;
-        background: #b2d8d8;
-        padding: 15px;
-        position: relative;
-        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-        padding: 13px;
-        color: #000000;
-    }
-    .speech-bubble:before {
-        content: "";
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        left: -10px;
-        top: 55px;
-        background: #b2d8d8;
-        transform: rotate(45deg);
-    }
+@media only screen and (max-width: 768px) {
+    .cloud {
+        margin-top: 100px;
 
-    @media only screen and (max-width: 640px) {
-        .speech-bubble:before {
-            left: 47%;
-            top: -10px;
-            background: #b2d8d8;
-            transform: rotate(45deg);
+        .cloud-circle {
+            &:nth-child(1) {
+                top: -40px;
+                left: 90px;
+            }
+
+            &:nth-child(2) {
+                top: -60px;
+                left: 120px;
+            }
+
+            &:nth-child(3) {
+                top: -70px;
+                left: 160px;
+            }
         }
     }
 }

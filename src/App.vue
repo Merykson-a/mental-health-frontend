@@ -1,11 +1,13 @@
 <template>
     <Header />
+    <Concept />
     <Footer />
 </template>
 
 <script setup>
-import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import Header from "./components/Header.vue";
+import Concept from "./components/Concept.vue";
 </script>
 
 <style lang="scss">
@@ -16,10 +18,10 @@ body {
 
 ::-webkit-scrollbar {
     width: 13px !important;
-    background: transparent;
+    background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-    border: 4px solid rgba(0, 0, 0, 0);
+    border: 4px solid transparent;
     background-clip: padding-box;
     border-radius: 100px;
     background-color: #b2ebf2;
