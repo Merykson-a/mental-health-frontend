@@ -9,7 +9,7 @@
             <div class="content-title ml-2">Saúde mental</div>
         </div>
 
-        <div class="header-container flex flex-col md:flex-row items-center">
+        <div class="header-container flex flex-col sm:flex-row items-center">
             <img class="brain-img" src="@/assets/images/header/brain.png" />
 
             <div class="cloud text-center py-7">
