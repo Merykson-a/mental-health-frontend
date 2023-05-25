@@ -35,7 +35,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
 
 .content-title {
-    color: #3d5c75;
+    color: $blue;
     font-size: 20px;
     font-family: Oleo Script;
 }
@@ -57,18 +57,18 @@
     .sub-title {
         font-size: 25px;
         font-weight: bold;
-        color: #ff7e7e;
+        color: $pink;
     }
 
     .cloud {
         position: relative;
         width: 100%;
-        background-color: #3d5c75;
+        background-color: $blue;
         border-radius: 30vh;
 
         .cloud-circle {
             position: absolute;
-            background-color: #3d5c75;
+            background-color: $blue;
             border-radius: 50%;
             width: 30px;
             height: 30px;

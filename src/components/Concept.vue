@@ -6,18 +6,20 @@
     >
         <div class="concept-content p-7">
             <div class="title pb-3">
-                Afinal, o que é
-                <b style="color: #ffb30e">saúde mental?</b>
+                Afinal, o que é <b id="mental-health">saúde mental?</b>
             </div>
 
             <div class="text pt-7">
-                A saúde mental refere-se ao estado de bem-estar emocional,
-                psicológico e social de uma pessoa. É sobre cuidar da nossa
-                mente, cultivar pensamentos positivos, nutrir nossas emoções e
-                adotar comportamentos saudáveis.
+                <a href="https://www.who.int/"
+                    >A Organização Mundial da Saúde (OMS)</a
+                >
+                define saúde mental como “um estado de bem-estar mental que
+                permite às pessoas lidar com os momentos estressantes da vida,
+                desenvolver todas as suas habilidades, aprender e trabalhar bem
+                e contribuir para a melhoria de sua comunidade”.
             </div>
 
-            <div class="text pt-7 md:flex-none md:flex gap-14 items-center">
+            <div class="text pt-7 md:flex gap-14 items-center justify-center">
                 Assim como uma floresta pode enfrentar tempestades e
                 desequilíbrios, nossa saúde mental também pode ser afetada por
                 diversos fatores, como estresse, traumas, problemas de
@@ -28,7 +30,8 @@
 
                 <img
                     class="happy-forest-img"
-                    alt="Forest with a happy girl in the background."
+                    href="https://gencraft.com/generate"
+                    alt="Paisagem de floresta com uma menina sorridente ao fundo."
                     src="@/assets/images/concept/happy-forest.png"
                 />
             </div>
@@ -40,7 +43,11 @@
 .gradiente {
     width: 100%;
     height: 30px;
-    background-image: linear-gradient(to bottom, #fff7c4, #e6f1f6);
+    background-image: linear-gradient(to bottom, $yellow-light, $blue-light);
+}
+
+#mental-health {
+    color: $yellow;
 }
 
 .concept-container {
@@ -48,7 +55,7 @@
     justify-content: space-between;
     position: relative;
     padding: 50px;
-    background-color: #e6f1f6;
+    background-color: $blue-light;
     overflow: hidden;
 
     .happy-forest-img {
@@ -64,22 +71,13 @@
 
         .title {
             font-size: 30px;
-            // color: #3d5c75;
-            color: #4d700f;
+            color: $green;
             font-weight: bold;
-        }
-
-        .text {
-            font-size: 24px;
-            text-indent: 2em;
-            hyphens: auto;
-            text-align: justify;
-            text-justify: newspaper;
         }
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .concept-container .happy-forest-img {
         margin-top: 30px;
         height: 100%;
