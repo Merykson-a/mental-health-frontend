@@ -9,7 +9,10 @@ A portal/landing page with basic information about mental health.
 -   HTML5 / CSS3
 -   Vue3
 -   Vite.js
+-   SCSS
 -   Tailwindcss
+
+### :gear: URL remote: https://merykson-a.github.io/mental-health-frontend
 
 ### :gear: URL local: http://localhost:3000/
 
@@ -31,6 +34,8 @@ npm run dev
 npm run build
 ```
 
-## 🎟 Status
+### Compiles for production
 
-Project complited
+```javascript
+npm run deploy
+```
