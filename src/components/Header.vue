@@ -49,13 +49,11 @@
     }
 
     .title {
-        font-size: 32px;
-        font-weight: bold;
-        color: #f8ae0e;
+        color: $yellow;
     }
 
     .sub-title {
-        font-size: 25px;
+        font-size: 24px;
         font-weight: bold;
         color: $pink;
     }

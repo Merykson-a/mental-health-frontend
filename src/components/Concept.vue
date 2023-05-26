@@ -19,7 +19,7 @@
                 e contribuir para a melhoria de sua comunidade”.
             </div>
 
-            <div class="text pt-7 md:flex gap-14 items-center justify-center">
+            <div class="text md:flex gap-14 items-center justify-center">
                 Assim como uma floresta pode enfrentar tempestades e
                 desequilíbrios, nossa saúde mental também pode ser afetada por
                 diversos fatores, como estresse, traumas, problemas de
@@ -70,9 +70,7 @@
         justify-content: center;
 
         .title {
-            font-size: 30px;
             color: $green;
-            font-weight: bold;
         }
     }
 }

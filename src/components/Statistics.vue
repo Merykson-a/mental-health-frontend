@@ -5,7 +5,7 @@
         class="concept-container grid md:grid-cols-2 grid-cols-1 items-center gap-14"
     >
         <div class="concept-content px-7">
-            <div class="md:flex gap-14 items-center justify-center pt-10">
+            <div class="md:flex gap-14 items-center justify-center py-10">
                 <img
                     class="happy-forest-img h-full"
                     alt="Paisagem de floresta com uma menina sorridente ao fundo."
@@ -21,6 +21,7 @@
                         Segundo a
                         <a
                             href="https://www.who.int/health-topics/mental-health#tab=tab_2"
+                            target="_blank"
                             >Organização Mundial da Saúde (OMS)</a
                         >
                         "as condições de saúde mental estão aumentando em todo o
@@ -38,6 +39,8 @@
                         <p>
                             Conforme estatísticas disponibilizadas pela
                             <a
+                                target="_blank"
+                                href="http://www.ismabrasil.com.br/ws/ckfinder/files/POP_empregos_Burnout.pdf"
                                 ><i
                                     >International Stress Management Association
                                     no Brasil (ISMA-BR)</i
@@ -84,9 +87,7 @@ export default {};
         justify-content: center;
 
         .title {
-            font-size: 30px;
             color: $pink;
-            font-weight: bold;
         }
     }
 }
