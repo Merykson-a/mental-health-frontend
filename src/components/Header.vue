@@ -20,9 +20,7 @@
                 <div class="cloud-circle" />
 
                 <div class="content">
-                    <h1 class="title mt-3">
-                        Mentalidade saudável, vida plena:
-                    </h1>
+                    <h1 class="title mt-3">Mente saudável, vida plena:</h1>
 
                     <p class="sub-title mt-7 mb-4">Então, como vai sua vida?</p>
                 </div>
