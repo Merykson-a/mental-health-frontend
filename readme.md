@@ -34,7 +34,7 @@ npm run dev
 npm run build
 ```
 
-### Compiles for production
+### Compiles for github pages
 
 ```javascript
 npm run deploy
