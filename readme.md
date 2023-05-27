@@ -1,8 +1,6 @@
 ## :brain: Mental Health
 
-```
-A website with relevant information about mental health. Project carried out for educational purposes by Merykson Acácio.
-```
+**A website with relevant information about mental health. Project carried out for educational purposes by Merykson Acácio.**
 
 ### :hammer_and_wrench: Language/tools
 
