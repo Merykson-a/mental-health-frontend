@@ -59,7 +59,7 @@ export default {};
     flex-direction: column;
     align-items: center;
     justify-content: center !important;
-    padding: 50px;
+    padding: 0px 80px 25px 80px;
 
     a {
         font-size: 18px;
@@ -77,8 +77,18 @@ export default {};
 }
 
 @media only screen and (max-width: 600px) {
-    .sources-container .sources {
-        text-align: start !important;
+    .sources-container {
+        .title {
+            font-size: 20px !important;
+        }
+
+        .sources {
+            text-align: start !important;
+        }
+
+        a {
+            font-size: 16px;
+        }
     }
 }
 </style>
