@@ -1,7 +1,7 @@
 <template>
     <div class="gradiente" />
 
-    <section class="sources-container">
+    <section class="sources-container my-10">
         <div class="title pb-5">Fontes</div>
 
         <div class="sources">

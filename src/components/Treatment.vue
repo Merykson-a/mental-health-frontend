@@ -8,7 +8,7 @@
             class="treatment-content px-7 md:flex gap-14 items-center justify-center"
         >
             <div>
-                <div class="title pb-6 w-full flex justify-center">
+                <div class="title pb-6 w-full">
                     <b id="mental-health">Saúde mental:&nbsp;</b> como mantê-la?
                 </div>
 
@@ -121,6 +121,7 @@
     .treatment-content {
         .title {
             color: $blue;
+            text-align: center;
         }
     }
 }
