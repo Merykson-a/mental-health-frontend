@@ -1,10 +1,10 @@
-### :pill: Mental Health
+## :brain: Mental Health
 
 ```
-A portal/landing page with basic information about mental health.
+A website with relevant information about mental health. Project carried out for educational purposes by Merykson Acácio.
 ```
 
-## :hammer_and_wrench: Language/tools
+### :hammer_and_wrench: Language/tools
 
 -   HTML5 / CSS3
 -   Vue3
@@ -12,30 +12,32 @@ A portal/landing page with basic information about mental health.
 -   SCSS
 -   Tailwindcss
 
-### :gear: URL remote: https://merykson-a.github.io/mental-health-frontend
+### :earth_africa: URL remote: https://merykson-a.github.io/mental-health-frontend
 
-### :gear: URL local: http://localhost:3000/
+#### Compiles for github pages
 
-### Project setup
+```javascript
+npm run deploy
+```
+
+### :derelict_house: URL local: http://localhost:3000/mental-health-frontend
+
+#### Project setup
 
 ```javascript
 npm install
 ```
 
-### Compiles for development
+#### Compiles for development
 
 ```javascript
 npm run dev
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 
 ```javascript
 npm run build
 ```
 
-### Compiles for github pages
-
-```javascript
-npm run deploy
-```
+![Website homepage](https://img001.prntscr.com/file/img001/gVUv8hC_RWmU97R8BPW5Sw.png)
